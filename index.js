@@ -9,6 +9,6 @@ function mapToNoChange(sourceArray) {
 }
 
 function mapToDouble(sourceArray) {
-  const newArray = sourceArray.map(x => x)
+  const newArray = sourceArray.map(x => x * 2)
   return newArray
 }
