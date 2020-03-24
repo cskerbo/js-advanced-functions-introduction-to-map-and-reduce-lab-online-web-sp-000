@@ -23,6 +23,7 @@ function reduceToTotal(sourceArray, startingPoint=0) {
   return sourceArray.reduce(reducer, startingPoint)
 }
 
-function reduceToAllTrue() {
-
+function reduceToAllTrue(sourceArray) {
+  const isTrue = (currentValue) => currentValue
+  sourceArray.every(isTrue);
 }
