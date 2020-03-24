@@ -25,5 +25,5 @@ function reduceToTotal(sourceArray, startingPoint=0) {
 
 function reduceToAllTrue(sourceArray) {
   const isTrue = (currentValue) => currentValue
-  sourceArray.every(isTrue);
+  return sourceArray.every(isTrue);
 }
