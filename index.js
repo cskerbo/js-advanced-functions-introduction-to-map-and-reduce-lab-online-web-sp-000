@@ -27,3 +27,8 @@ function reduceToAllTrue(sourceArray) {
   const isTrue = (currentValue) => currentValue
   return sourceArray.every(isTrue);
 }
+
+function reduceToAnyTrue(sourceArray) {
+  const isTrue = (currentValue) => currentValue
+  return sourceArray.every(isTrue);
+}
