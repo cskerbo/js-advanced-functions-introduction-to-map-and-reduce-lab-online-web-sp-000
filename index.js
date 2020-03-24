@@ -30,5 +30,5 @@ function reduceToAllTrue(sourceArray) {
 
 function reduceToAnyTrue(sourceArray) {
   const isTrue = (currentValue) => currentValue
-  return sourceArray.every(isTrue);
+  return sourceArray.some(isTrue);
 }
