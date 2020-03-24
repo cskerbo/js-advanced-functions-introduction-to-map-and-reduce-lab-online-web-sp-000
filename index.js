@@ -17,3 +17,7 @@ function mapToSquare(sourceArray) {
   const newArray = sourceArray.map(x => x ** 2)
   return newArray
 }
+
+function reduceToTotal(sourceArray, startingPoint) {
+
+}
