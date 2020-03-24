@@ -7,3 +7,8 @@ function mapToNoChange(sourceArray) {
   const newArray = sourceArray.map(x => x)
   return newArray
 }
+
+function mapToDouble(sourceArray) {
+  const newArray = sourceArray.map(x => x)
+  return newArray
+}
